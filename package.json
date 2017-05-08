@@ -1,0 +1,30 @@
+{
+  "name": "backstop-example",
+  "version": "0.0.1",
+  "description": "BackstopJS sample tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "backstop test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vergissberlin/backstop-example.git"
+  },
+  "keywords": [
+    "backstopjs"
+  ],
+  "author": "André Lademann <vergissberlin@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vergissberlin/backstop-example/issues"
+  },
+  "homepage": "https://github.com/vergissberlin/backstop-example",
+  "devDependencies": {
+    "backstopjs": "beta",
+    "slimerjs": "^0.10.3",
+    "phantomjs": "^2.1.7"
+  }
+}

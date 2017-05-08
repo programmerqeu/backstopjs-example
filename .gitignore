@@ -1,0 +1,6 @@
+.DS_Store
+.vagrant
+/node_modules/
+/tests/reports/
+/tests/results/
+!.keep
