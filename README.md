@@ -42,7 +42,7 @@ cd backstop-example && npm i
 
 ## Let's get testing
 ```sh
-npm test
-npm references
+backstopjs test
+backstopjs references
 ```
  For furhter informations, take a look on the [BackstopJS GitHub page](https://github.com/garris/BackstopJS).
