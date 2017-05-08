@@ -1,9 +1,9 @@
 # backstopjs-example
-**Example BackstopJS test with a included Vagrantfile.**
+**Example BackstopJS test environment with a included Vagrantfile and Dockerfile for testing purpose.**
 
-[![Build Status](https://travis-ci.org/vergissberlin/backstop-example.svg?branch=master)](https://travis-ci.org/vergissberlin/backstop-example)
+[![Build Status](https://travis-ci.org/vergissberlin/backstopjs-example.svg?branch=master)](https://travis-ci.org/vergissberlin/backstopjs-example)
 
-BackstopJS automates visual regression testing of your responsive web UI by comparing DOM screenshots over time.
+_Say what?_ BackstopJS automates visual regression testing of your responsive web UI by comparing DOM screenshots over time.
 
 **Features:**
 
@@ -12,14 +12,23 @@ BackstopJS automates visual regression testing of your responsive web UI by comp
 - Detailed in-browser reports.
 - CI Integration with JUnit reports.
 
-## Installation with Vagrant
+## Run with Vagrant
 I recommend this way, cause if you don't like it, you didn't mess up your system.
 
 ```sh
-$ vagrant up
+vagrant up
 ```
 
-## Installation without Vagrant
+## Run with Vagrant
+May you prefer Dockern rather then Vagrant, then I recommend this way. Because if you don't like it, you didn't mess up your system.
+
+```sh
+docker build -t backstopjs-example .
+docker run -it --rm -v "$PWD":/backstopjs-example --name backstopjs-example-container backstopjs-example bash
+```
+
+
+## Installation without Vagrant and Docker
 If you don't wanna use Vagrant, you have to install the dependencies on your own. Please install _phantomjs_ and the node packages like that:
 
 ```sh
