@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "backstop test",
-    "references": "backstop references"
+    "test": "backstopjs test",
+    "references": "backstopjs references"
   },
   "repository": {
     "type": "git",
