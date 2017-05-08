@@ -1,7 +1,7 @@
 # backstopjs-example
 **Example BackstopJS test with a included Vagrantfile.**
 
-[![Build Status](https://travis-ci.org/vergissberlin/backstopjs-example.svg)](https://travis-ci.org/vergissberlin/backstopjs-example)
+[![Build Status](https://travis-ci.org/vergissberlin/backstop-example.svg?branch=master)](https://travis-ci.org/vergissberlin/backstop-example)
 
 BackstopJS automates visual regression testing of your responsive web UI by comparing DOM screenshots over time.
 
