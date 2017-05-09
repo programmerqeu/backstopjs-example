@@ -19,12 +19,11 @@ I recommend this way, cause if you don't like it, you didn't mess up your system
 vagrant up
 ```
 
-## Run with Vagrant
+## Run with Docker
 May you prefer Dockern rather then Vagrant, then I recommend this way. Because if you don't like it, you didn't mess up your system.
 
 ```sh
-docker build -t backstopjs-example .
-docker run -it --rm -v "$PWD":/backstopjs-example --name backstopjs-example-container backstopjs-example bash
+docker run -it --rm -v "$PWD":/backstopjs-example --name backstopjs-example-container vergissberlin/backstopjs-example bash
 ```
 
 
