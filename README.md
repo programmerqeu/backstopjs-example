@@ -1,7 +1,7 @@
 # backstopjs-example
 **Example BackstopJS test environment with a included Vagrantfile and Dockerfile for testing purpose.**
 
-[![Build Status](https://travis-ci.org/vergissberlin/backstopjs-example.svg?branch=master)](https://travis-ci.org/vergissberlin/backstopjs-example)
+[![Build Status](https://travis-ci.org/vergissberlin/backstopjs-example.svg?branch=master)](https://travis-ci.org/vergissberlin/backstopjs-example) [![Greenkeeper badge](https://badges.greenkeeper.io/vergissberlin/backstopjs-example.svg)](https://greenkeeper.io/)
 
 _Say what?_ BackstopJS automates visual regression testing of your responsive web UI by comparing DOM screenshots over time.
 
